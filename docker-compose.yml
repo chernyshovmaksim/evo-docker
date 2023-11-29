@@ -25,6 +25,9 @@ services:
     networks:
       - evo
     container_name: php
+    depends_on:
+      - nginx
+      - db
 
   db:
     image: mysql
