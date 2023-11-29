@@ -25,4 +25,4 @@ RUN apt-get install -y \
     tree \
     vim \
     wget
-RUN chmod 777 -R /var/www/evo
+
