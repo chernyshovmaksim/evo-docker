@@ -38,7 +38,7 @@ services:
     networks:
       - evo
     volumes:
-      - ./docker/db:/var/lib/mysql
+      - /docker/db:/var/lib/mysql
     container_name: mysql
 
   # adminer:
